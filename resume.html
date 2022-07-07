@@ -4,14 +4,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Elyes CHERFA Homepage</title>
+    <title>Elyes CHERFA</title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!--Montserrat font-->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css" />
-    <script src="https://unpkg.com/feather-icons"></script>
+    <!--<script src="https://unpkg.com/feather-icons"></script> -->
+    <script src="https://kit.fontawesome.com/a0844274b9.js" crossorigin="anonymous"></script>
   </head>
   <body>   
     <section>
@@ -30,45 +31,50 @@
       <section class="image-section w3-quarter w3-fixed w3-padding-small">
         <!--IMAGE/AVATAR-->
         <img src="Resources/Image.jpg" class="w3-circle w3-border w3-border-sand" style="border-width: 3px !important;"/>
-        <!--SCIAL NETWORK BUTTONS-->
-        <div class="links w3-margin-top w3-padding-small">
-          <a class="icon-link w3-text-sand w3-hover-text-amber" href="#facebook" target="_blank">
-              <i data-feather="facebook"></i>
-          </a>
-          <a class="icon-link w3-text-sand w3-hover-text-amber" href="#instagram" target="_blank">
-             <i data-feather="instagram"></i>
-          </a>
-          <a class="icon-link w3-text-sand w3-hover-text-amber" href="#twitter" target="_blank">
-             <i data-feather="twitter"></i>
-          </a>
-          <a class="icon-link w3-text-sand w3-hover-text-amber" href="#linkedin" target="_blank">
-             <i data-feather="linkedin"></i>
-          </a>
-        </div>
         <!--CV DOWNLOAD BUTTON-->
         <div class="w3-container w3-padding-16">
-          <a href="./Resources/CV.pdf" class="w3-amber w3-hover-amber w3-button w3-round-small w3-hover-deep-orange w3-padding-large" target="_blank" download="./Resources/CV.pdf">
+          <a href="./CV.pdf" class="w3-amber w3-hover-amber w3-button w3-round-small w3-hover-deep-orange w3-padding-large" target="_blank" download="CV.pdf">
             <i data-feather="arrow-down" style="vertical-align: -0.35em;"></i>
             <span class="w3-margin-left download-text">DOWNLOAD CV</span>
           </a>
         </div>
-      <div class="w3-container w3-padding-16">
-        <a href="#ProfessionalExperience" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important; color:white; text-align:left;"  onclick="toggleNavigation()">PROFESSIONAL EXPERIENCE<br></a>
-        <br><br>
-        <a href="#Education" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important; color:white; text-align:left;" onclick="toggleNavigation()">MY EDUCATION<br></a>
-        <br><br>
-        <a href="#Skills" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important; color:white; text-align:left;" onclick="toggleNavigation()">MY SKILLS<br></a>
-        <br><br>
-        <a href="#Hobbies" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important; color:white;" onclick="toggleNavigation()">MY HOBBIES & INTERESTS<br></a>
-      </div>
-
+        
+        <section>
+          <div class="icon-bar">
+            <a href="https://github.com/Cherfalyes"><i class="fa-brands fa-github-square fa-3x icons"></i></a>
+            <p style="color:white">github</p>
+          </div>
+          <div>  
+            <a href="https://orcid.org/0000-0003-3014-3056"><i class="fa-brands fa-orcid fa-3x icons"></i></a>
+            <p style="color:white">ORCID</p>
+          </div>
+          <div>
+            <a href="https://www.linkedin.com/in/elyes-cherfa/"><i class="fa-brands fa-linkedin fa-3x icons"></i></a>
+            <p style="color:white">LinkedIn</p>
+          </div>
+          <div>  
+            <a href=""><i class="fa-brands fa-google fa-3x icons"></i></a>
+            <p style="color:white">Google Scholar</p>
+          </div>
+          <div>
+            <a href="https://twitter.com/cherfalyes"><i class="fa-brands fa-twitter fa-3x icons"></i></a>
+            <p style="color:white">Twitter</p>
+          </div>
+          <div>
+            <a href="https://dblp.org/pid/262/0801.html"><i class="fa-solid fa-book-bookmark fa-3x icons"></i></a>
+            <p style="color:white">DBLP</p>
+          </div>
+          <div>
+            <a href="https://www.researchgate.net/profile/Elyes-Cherfa/"><i class="fa-brands fa-researchgate fa-3x icons"></i></a>
+            <p style="color:white">ResearchGate</p>
+          </div>
+        </section>  
       </section>
 
       <!--CV CONTENT SECTION-->
       <section class="w3-threequarter w3-padding-large w3-right">
         <!--DESKTOP NAVIGATION-->
         <div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
-          <!--<a href="#home" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">CURRICULUM VITAE</a>-->
           <a href="#contact" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="location.href = './contact.html'">CONTACT</a>
           <a href="#resume" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="location.href = './resume.html'">RESUME</a>
           <a href="#teaching" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="location.href = './teaching.html'">TEACHING</a>
